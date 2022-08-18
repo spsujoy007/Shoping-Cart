@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- link of bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+        <section>
+            <div class="items ">
+                <div class="single-item row p-4">
+                    <div class="col-md-6 d-flex justify-content-center flex-column dark p-5">
+                        <img src="img/apple12img.png" class="img-fluid w-50" alt="">
+                        <div>
+                            <h1>I Phone 13 mini</h1>
+                            <p class="fw-bold">
+                                Psuper Retina XDR OLED, HDR10, Dolby Vision, 800 nits (HBM), 1200 nits (peak)
+                            </p>
+
+                            <span>iPhone is a line of smartphones designed. These devices
+                                use Apple's iOS mobile operating system.
+                                then-Apple <code>CEO Steve Jobs on January 9, 2007.</code> </span>
+                            <h3 class="m-0 mt-3">Price $<span>1268</span></h3>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 bg-white p-5">
+                        <div>
+                            <h5>Name: IT Department Team</h5>
+                            <p>Address: Dhaka, Gazipur </p>
+                            <p>Mobile number: <b>+8801800000000</b></p>
+                            <h5 class="mt-3">Order summary</h5>
+
+                            <div class="position-relative">
+
+                                <!-- Step /////////////////////////////////////////// -->
+                                <h2 class="text-primary">Total Price: $<span id="price-tag">1268</span></h2>
+                                <!-- discount price or buy now button  -->
+                                <h5 class="mt-5">Enter coupon code</h5>
+                                <div class="d-flex align-items-center">
+
+                                    <!-- steps /////////////////////////////////// -->
+                                    <input id="input-field" type="text" placeholder="type a coupon code"
+                                        class="form-control w-50 d-inline me-2">
+
+                                    <!-- steps ////////////////////////////////////// -->
+                                    <button id="apply-btn" class="btn btn-primary text-light" disabled>Apply
+                                        coupon</button>
+
+                                </div>
+                                <p>Your discount coupon is <span class="text-danger fw-bold">DOM</span></p>
+
+                                <div class="buttons mt-5 d-flex align-items-center">
+                                    <h5 class="mt-3">Discount -30%</h5>
+                                    <button class="btn btn-danger text-light w-25 p-2 position-absolute end-0">Buy
+                                        now</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <!-- bootstrap js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+    <script src="js/setting.js"></script>
+    <script src="js/discount.js"></script>
+</body>
+
+</html>
